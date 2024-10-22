@@ -1,0 +1,28 @@
+{
+  "name": "homework02-baileyyi19307",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@eslint/js": "^9.10.0",
+    "chai": "^5.1.1",
+    "eslint": "^9.11.1",
+    "eslint-plugin-mocha": "^10.5.0",
+    "globals": "^15.9.0",
+    "mocha": "^10.7.3",
+    "mocha-sinon": "^2.1.2",
+    "sinon": "^19.0.2"
+  },
+  "dependencies": {
+    "csv-parse": "^5.5.6"
+  }
+}
