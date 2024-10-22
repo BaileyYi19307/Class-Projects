@@ -4,7 +4,6 @@
 A command-line Tic Tac Toe game built in JavaScript. The game allows for customizable board sizes and offers a computer opponent.
 
 - **Technologies**: JavaScript, Node.js, Mocha, Chai
-- **Course**: [Course Name]
 
 ## [Homework #2: Higher Order Functions, Classes, Net Module](./Homework_2_HOF)
 This project covers a series of exercises on higher-order functions, JavaScript classes, and the net module. It includes:
