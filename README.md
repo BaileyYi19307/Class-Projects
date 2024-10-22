@@ -1,10 +1,9 @@
 # Mini Class Projects
 
 ## [Tic Tac Toe Game](./tic-tac-toe)
-An interactive command-line **Tic Tac Toe** game that allows players to compete against each other or an AI opponent. The game includes customizable board sizes and intelligent move algorithms.
+A command-line Tic Tac Toe game built in JavaScript. The game allows for customizable board sizes and offers a computer opponent.
 
 - **Technologies**: JavaScript, Node.js, Mocha, Chai
-- **Course**: [Course Name]
 
 ## [JavaScript Functional Programming Toolkit](./functional-programming-toolkit)
 This project focuses on building a toolkit of functional programming utilities using JavaScript. It includes:
@@ -13,7 +12,6 @@ This project focuses on building a toolkit of functional programming utilities u
 - **Spotify Data Analysis**: A small program to parse and analyze CSV files using map, reduce, and filter functions.
 
 - **Technologies**: JavaScript (ES6+), Mocha, Chai, ESlint
-- **Course**: [Course Name]
 
 ## [Custom Node.js Static Web Server](./node-static-web-server)
 A custom **web server** built using Node.js that serves static files such as HTML, CSS, and images. The server also supports serving Markdown files as HTML and allows for configurable redirects via a JSON file.
@@ -23,7 +21,6 @@ A custom **web server** built using Node.js that serves static files such as HTM
   - File serving with appropriate MIME types
   - Markdown to HTML conversion
 - **Technologies**: Node.js, TCP/IP server, file system operations
-- **Course**: [Course Name]
 
 ## [Phonebook Application with Annotations](./phonebook-annotator)
 A **Phonebook Web Application** that allows users to store, search, and manage contacts. The app highlights and annotates names in user-entered text with corresponding contact information, displaying tooltips when hovering over names.
@@ -33,7 +30,6 @@ A **Phonebook Web Application** that allows users to store, search, and manage c
   - Text annotations with dynamic tooltips
   - Contact search and filter
 - **Technologies**: Express.js, Handlebars.js, Mocha, Chai
-- **Course**: [Course Name]
 
 ---
 
