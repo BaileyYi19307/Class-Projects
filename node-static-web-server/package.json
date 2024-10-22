@@ -1,0 +1,29 @@
+{
+  "name": "homework03-baileyyi19307",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nyu-csci-ua-0467-001-002-fall-2024/homework03-BaileyYi19307.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nyu-csci-ua-0467-001-002-fall-2024/homework03-BaileyYi19307/issues"
+  },
+  "homepage": "https://github.com/nyu-csci-ua-0467-001-002-fall-2024/homework03-BaileyYi19307#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.11.1",
+    "eslint": "^9.11.1",
+    "globals": "^15.9.0"
+  },
+  "dependencies": {
+    "markdown-it": "^14.1.0"
+  }
+}
