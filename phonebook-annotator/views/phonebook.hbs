@@ -1,0 +1,40 @@
+
+
+<div class="containerPhonebook">
+<form method="GET" action="/phonebook">
+    <input type="text" name="contact" placeholder="Search contact">
+    <input type="submit" value="Submit">
+</form>
+
+
+<table>
+<tr>
+    <th>Name</th>
+    <th>Email Address</th>
+    <th>PhoneNumbers</th>
+</tr>
+
+    {{!-- for each contact, display it's info on each row of the table --}}
+    {{#each contacts}}
+    <tr>
+        <td>{{this.name}}</td>
+        <td>{{this.email}}</td>
+
+        {{!-- loop through and display the phone number with a comma after it unless it's
+        the last phone number for that contact --}}
+        <td>{{#each this.phoneNumbers}}
+                {{this}}{{#unless @last}},{{/unless}}
+            {{/each}}
+        </td>
+
+    </tr>
+    {{/each}}
+</table>
+
+<form method="POST" action="/phonebook">
+    <input type="text" name="name" placeholder="Enter Name">
+    <input type="text" name="email" placeholder="Enter Email">
+    <input type="text" name="phoneNumbers" placeholder="Enter Phone Number(s)">
+    <input type="submit" value="Add">
+</form>
+</div>

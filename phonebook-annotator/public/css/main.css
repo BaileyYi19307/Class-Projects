@@ -1,0 +1,88 @@
+.contact-info {
+    border-bottom: 1px darkslategray dotted;
+    cursor: pointer;
+}
+
+body{
+    margin:0;
+    padding:0;
+}
+
+.editor{
+    display: flex;
+    flex-direction: column;
+}
+
+.submissionBtn{
+    width:20%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightcoral;
+    padding: 10px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-weight: bold;
+}
+
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin-right: 15px;
+}
+
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+
+.editedTextContainer{
+    height:200px;
+    width:300px;
+    border: 1px solid black;
+
+}
+
+.form-input{
+    border: 1px solid black;
+    height:200px;
+    width:300px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 40px auto;
+    width: 80%;
+}
+
+
+.leftside{
+    display:flex;
+    flex-direction: column;
+}
+
+.containerPhonebook{
+    display:flex;
+    flex-direction:column;
+    width:100%;
+    align-items: center;
+    margin-top:100px;
+}
